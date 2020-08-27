@@ -13,7 +13,7 @@ the method as a comment.
 ## Data Structures Covered
 - [x] Linked List
     - [x] Singly Linked List
-    - [] Doubly Linked List
+    - [x] Doubly Linked List
     - [] Circular Linked List
 - [x] Stack
     - [x] Array Stack

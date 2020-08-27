@@ -97,7 +97,7 @@ func (ll *linkedList) reverse() {
 	}
 
 	// prev is the new reversed linked list that will be created.
-	prev := &llNode{}
+	var prev *llNode
 	current := ll.head
 	for current != nil {
 		next := current.next
@@ -105,6 +105,7 @@ func (ll *linkedList) reverse() {
 		// of swapping the nodes
 		current.next = prev
 		prev = current
+
 		current = next
 	}
 	ll.head = prev
@@ -119,10 +120,11 @@ func (ll *linkedList) print() {
 	}
 
 	node := ll.head
-	for node.next != nil {
-		fmt.Print(node.val + ", ")
+	for node != nil {
+		fmt.Print(node.val + " -> ")
 		node = node.next
 	}
+	fmt.Println()
 }
 
 // Test the Data Structure by
