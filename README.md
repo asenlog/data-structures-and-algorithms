@@ -14,7 +14,7 @@ the method as a comment.
 - [x] Linked List
     - [x] Singly Linked List
     - [x] Doubly Linked List
-    - [] Circular Linked List
+    - [x] Circular Linked List
 - [x] Stack
     - [x] Array Stack
     - [x] Linked List Stack
