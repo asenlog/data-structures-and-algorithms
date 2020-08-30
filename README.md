@@ -18,6 +18,11 @@ the method as a comment.
 - [x] Stack
     - [x] Array Stack
     - [x] Linked List Stack
+- [x] Algorithms
+    - [x] Binary Search
+    - [] Bubble Sort
+    - [] Merge Sort
+    
 
 
     
